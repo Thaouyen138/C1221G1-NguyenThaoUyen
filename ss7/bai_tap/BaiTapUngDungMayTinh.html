@@ -5,23 +5,27 @@
     <title>Title</title>
 </head>
 <body>
-<h3>Caculator</h3>
+<p> <b> Caculator</b> </p>
 <table>
+       <tr>
+           <td> <input type="text" id="I1"></td>
+           <td> <input type="text" id="I2"> </td>
+       </tr>
     <tr>
         <td>
-            <input type="text">
-            <input type="text">
+            <button onclick="toanCong()" id="ADD">Addition(+)</button>
+        </td>
+        <td>
+            <button onclick="toanTru()" id="SUB">Subtraction(-)</button>
+        </td>
+        <td>
+            <button onclick="toanNhan()" id="MUL"> Multiplication(X)</button>
+        </td>
+        <td>
+            <button onclick="toanChia()" id="DEV">Devision(/)</button>
         </td>
     </tr>
 </table>
-<table>
-    <tr>
-        <td><button> Addition(+)</button></td>
-        <td><button> Subtraction(-)</button></td>
-        <td> <button>Multiplication(X)</button></td>
-        <td> <button>Division(/)</button></td>
-    </tr>
-</table>
-<p><b> Result Division:1</b> </p>
+<script src="BaiTapUngDungMayTinh.js" ></script>
 </body>
 </html>
