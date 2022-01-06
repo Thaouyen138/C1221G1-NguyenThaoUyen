@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1073731e-231d-4a60-a913-ecddbe9412d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bai_tap/BaiTapUngDungMayTinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/BaiTapUngDungMayTinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss8_cau_truc_dieu_kien1/thuc_hanh/ThucHanhKiemTraNamNhuan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bai_tap/BaiTapUngDungMayTinh.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss8_cau_truc_dieu_kien1" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +66,9 @@
       <workItem from="1641345547529" duration="3452000" />
       <workItem from="1641356151399" duration="8509000" />
       <workItem from="1641375872356" duration="304000" />
-      <workItem from="1641376208628" duration="1758000" />
+      <workItem from="1641376208628" duration="3744000" />
+      <workItem from="1641469269312" duration="284000" />
+      <workItem from="1641469833268" duration="63000" />
     </task>
     <servers />
   </component>
@@ -85,10 +88,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1641376963322">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1641469893555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1641376963322" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1641469893555" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1641372552316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
