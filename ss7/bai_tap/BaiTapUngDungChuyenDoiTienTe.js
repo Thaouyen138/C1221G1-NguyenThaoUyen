@@ -1,4 +1,4 @@
-function chuyentien() {
+function chuyenTien() {
     let tien = document.getElementById("tien").value;
     let sl1 = document.getElementById("sl1").value;
     let sl2 = document.getElementById("sl2").value;

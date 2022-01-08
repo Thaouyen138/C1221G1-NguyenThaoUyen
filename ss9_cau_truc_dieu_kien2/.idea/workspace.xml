@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1073731e-231d-4a60-a913-ecddbe9412d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ss9_cau_truc_dieu_kien2/BaiTap/CauLenhSwitchcase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss9_cau_truc_dieu_kien2/BaiTap/TinhChiSoCanNangCoThe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss9_cau_truc_dieu_kien2/ThucHanh/ThucHanhSuKienBanPhim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss9_cau_truc_dieu_kien2/ThucHanh/ThucHanhSuKienChuot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai_tap/BaiTapUngDungChuyenDoiTienTe.js" beforeDir="false" afterPath="$PROJECT_DIR$/bai_tap/BaiTapUngDungChuyenDoiTienTe.js" afterDir="false" />
+    <list default="true" id="c20b4f08-8a55-4943-8165-2e0c92cc3f91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BaiTap/CauLenhSwitchcase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaiTap/TinhChiSoCanNangCoThe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThucHanh/ThucHanhSuKienBanPhim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThucHanh/ThucHanhSuKienChuot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss8_cau_truc_dieu_kien1/thuc_hanh/ThucHanhLuyenTapCauTrucIfelse.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss8_cau_truc_dieu_kien1/thuc_hanh/ThucHanhLuyenTapCauTrucIfelse.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +36,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="23EqJkhm1gP3u3qDFNnYbjkOtz8" />
+  <component name="ProjectId" id="23MW2YyhujKavfwWNDeJ9WGgMjD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,28 +53,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss9_cau_truc_dieu_kien2/BaiTap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss8_cau_truc_dieu_kien1" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1073731e-231d-4a60-a913-ecddbe9412d5" name="Default Changelist" comment="" />
-      <created>1641309523145</created>
+      <changelist id="c20b4f08-8a55-4943-8165-2e0c92cc3f91" name="Default Changelist" comment="" />
+      <created>1641544229386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1641309523145</updated>
-      <workItem from="1641309524553" duration="505000" />
-      <workItem from="1641345547529" duration="3452000" />
-      <workItem from="1641356151399" duration="8509000" />
-      <workItem from="1641375872356" duration="304000" />
-      <workItem from="1641376208628" duration="3744000" />
-      <workItem from="1641469269312" duration="284000" />
-      <workItem from="1641469833268" duration="63000" />
-      <workItem from="1641547154948" duration="36000" />
-      <workItem from="1641547817732" duration="50000" />
-      <workItem from="1641615374987" duration="56000" />
+      <updated>1641544229386</updated>
+      <workItem from="1641544231178" duration="83000" />
+      <workItem from="1641546387288" duration="64000" />
+      <workItem from="1641546468008" duration="105000" />
+      <workItem from="1641546604474" duration="25000" />
+      <workItem from="1641546642290" duration="200000" />
+      <workItem from="1641546901809" duration="44000" />
+      <workItem from="1641546984115" duration="26000" />
+      <workItem from="1641547038961" duration="16000" />
+      <workItem from="1641547093724" duration="31000" />
+      <workItem from="1641547192431" duration="404000" />
+      <workItem from="1641547656243" duration="155000" />
+      <workItem from="1641547869736" duration="53000" />
+      <workItem from="1641547949527" duration="997000" />
+      <workItem from="1641613873425" duration="1461000" />
     </task>
     <servers />
   </component>
@@ -96,13 +98,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1641615429125">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1641615334245">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1641615429125" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1641372552316">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1641372552316" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1641615334245" />
   </component>
 </project>
