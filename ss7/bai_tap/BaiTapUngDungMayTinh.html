@@ -5,27 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-<p> <b> Caculator</b> </p>
-<table>
-       <tr>
-           <td> <input type="text" id="I1"></td>
-           <td> <input type="text" id="I2"> </td>
-       </tr>
-    <tr>
-        <td>
-            <button onclick="toanCong()" id="ADD">Addition(+)</button>
-        </td>
-        <td>
+<h2> <b> Caculator</b> </h2>
+<form>
+<input type="text" id="I1">
+           <input type="text" id="I2"> <br>
+
+            <button onclick="toanCong() " id="ADD">Addition(+)</button>
+
             <button onclick="toanTru()" id="SUB">Subtraction(-)</button>
-        </td>
-        <td>
-            <button onclick="toanNhan()" id="MUL"> Multiplication(X)</button>
-        </td>
-        <td>
-            <button onclick="toanChia()" id="DEV">Devision(/)</button>
-        </td>
-    </tr>
-</table>
+
+            <button onclick="toanNhan()" id="MUL">Multiplication(X)</button>
+    <button onclick="toanChia()" id="DIV" >Division(/)</button>
+
+</form>
 <script src="BaiTapUngDungMayTinh.js" ></script>
 </body>
 </html>

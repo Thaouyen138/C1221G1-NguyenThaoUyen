@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soTienvay = parseInt(prompt("So tiền vay ngân hàng:"));
+    let soTienlai;
+    let soThang = parseInt(prompt("số tháng vay:"));
+    if (soThang <= 3) {
+        soTienlai = soTienvay * 20/ 100;
+        alert("so tiền lãi hằng tháng:" + soTienlai);
+    } else if (soThang <= 6) {
+        soTienlai = soTienvay * 10 / 100;
+        alert("so tiền lãi hằng tháng:" + soTienlai);
+    } else {
+        soTienlai = soTienvay * 5/ 100;
+        alert("so tiền lãi hằng tháng: " + soTienlai);
+    }
+
+</script>
+
+</body>
+</html>

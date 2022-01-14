@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tongThunhap = parseInt(prompt("thu nhập hăng năm"));
+    let thue;
+    if (tongThunhap >= 20000000) {
+        thue = (tongThunhap * 15 /100);
+        alert("thuế mỗi năm:" + thue);
+    } else if  (tongThunhap >= 15000000){
+        thue = (tongThunhap * 10/100);
+        alert("thuế mỗi năm:" + thue);
+    } else {
+        thue = (tongThunhap * 5/100);
+        alert("thue mỗi năm:" + thue);
+    }
+</script>
+</body>
+</html>

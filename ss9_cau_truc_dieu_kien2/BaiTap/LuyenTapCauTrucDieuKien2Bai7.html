@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt("nhap so a:"))
+    let b=parseInt(prompt("nhap so b:"))
+    let c=parseInt(prompt("nhap so c:"))
+    let denta=b*b -4*a*c
+    let x1;
+    let x2;
+    let canBac2= Math.sqrt(denta);
+    if (denta>0){
+        x1=(-b+canBac2)/(2*a);
+        x2=(-b-canBac2)/(2*a);
+        alert("phương trình có 2 nghiệm phân biết x1=" +x1 );
+        alert("phương trình có 2 nghiệm phân biệt x2=" +x2);
+    }else if (denta==0){
+        x1=x2=-b/(2*a);
+        alert("phương trình có 1 nghiệm duy nhất: x1=x2=" +x1)
+    }else {
+        alert("phương trình vô nghiệm");
+    }
+</script>
+
+</body>
+</html>

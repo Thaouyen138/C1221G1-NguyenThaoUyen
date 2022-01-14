@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let canhA = parseInt(prompt("canha:"));
+    let canhB = parseInt(prompt("canhb:"));
+    let canhC = parseInt(prompt("canhc:"));
+    if (canhA > 0 && canhB > 0 && canhC > 0
+        && (canhA + canhB) > canhC
+        && (canhB + canhC) > canhA
+        && (canhA + canhC) > canhB) {
+        alert("canhA, canhB,canhC là cạnh của 1 tam giác");
+    } else {
+        (alert("canhA,canhB,canhC không là cạnh của 1 tam giác"));
+    }
+
+
+</script>
+</body>
+</html>
