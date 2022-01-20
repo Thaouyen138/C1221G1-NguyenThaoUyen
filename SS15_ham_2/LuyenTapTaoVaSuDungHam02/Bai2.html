@@ -8,25 +8,27 @@
 <script>
     // Viết hàm tính diện tích, hàm tính chu vi hình tròn
     //Gọi hàm vừa xây dựng được
+    let banKinh = parseInt(prompt("nhap ban kinh"));
+
     function dienTich(banKinh) {
-        banKinh = parseInt(prompt("nhap ban kinh"));
-        pi = parseInt(3, 14);
+        let pi = 3.14;
+        let dienTichHinhTron;
         dienTichHinhTron = pi * banKinh * banKinh;
         return dienTichHinhTron;
     }
 
-    let dienTichHinhTron = dienTich();
-    alert("dien tich hinh tron=" + dienTich);
+    let ketQua = dienTich(banKinh);
+    alert("dien tich hinh tron=" + ketQua);
 
     function chuVi(banKinh) {
-        banKinh = parseInt(prompt("nhap ban kinh"));
-        pi = parseInt(3, 14);
+        let pi = 3.14;
+        let chuViHinhTron;
         chuViHinhTron = 2 * pi * banKinh;
         return chuViHinhTron;
     }
 
-    let chuViHinhTron = chuVi();
-    alert("chu vi hinh tron =" + chuVi);
+    let ketQua2 = chuVi(banKinh);
+    alert("chu vi hinh tron =" + ketQua2);
 </script>
 </body>
 </html>

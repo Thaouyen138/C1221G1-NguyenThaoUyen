@@ -8,10 +8,24 @@
 <script>
     //5: Viết hàm nhận vào 3 số nguyên bất kỳ,
     // trả về số nguyên có giá trị nhỏ nhất.
-    function soNguyen(so) {
-
+    let soThuNhat = parseInt(prompt("nhap so thứ nhất"));
+    let soThuHai = parseInt(prompt("nhap so thứ hai"));
+    let soThuBa = parseInt(prompt("nhap so thứ ba"));
+    timSoNguyen(x,y,z);
+    function timSoNguyen(x, y, z) {
+        if (x < y && x < z) {
+            return x;
+        } else if (y < z) {
+            return y;
+        } else {
+            return z;
+        }
 
     }
+
+    let ketQua = timSoNguyen(x, y, z);
+    alert("ket qua=" + ketQua);
+
 </script>
 
 </body>

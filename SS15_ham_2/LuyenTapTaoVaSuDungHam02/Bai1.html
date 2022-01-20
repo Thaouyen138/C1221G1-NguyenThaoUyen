@@ -8,13 +8,15 @@
 <script>
     //Viết hàm tính bình phương của một số bất kỳ được đưa vào
     // Gọi hàm vừa xây dựng được.
+    let nhapSoVao = parseInt(prompt("nhap so"));
+
     function tinhBinhPhuong(nhapSoVao) {
-        nhapSoVao = parseInt(prompt("nhap so"));
-     tinh=nhapSoVao*nhapSoVao;
-     return tinh;
+        let tinh = nhapSoVao * nhapSoVao;
+        return tinh;
     }
 
-    alert("so binh phuong la=" +tinh);
+    let ketQua = tinhBinhPhuong(nhapSoVao);
+    alert("bình phương là =" + ketQua);
 </script>
 </body>
 </html>

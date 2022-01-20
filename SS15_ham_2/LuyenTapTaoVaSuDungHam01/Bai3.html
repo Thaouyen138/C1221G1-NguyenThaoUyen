@@ -6,10 +6,11 @@
 </head>
 <body>
 <script>
-    thamSo()
+
+    let thamSo1 = parseInt(prompt("nhâp số thứ 1"));
+    let thamSo2 = parseInt(prompt("nhập số thứ 2"));
+    thamSo(thamSo1, thamSo2);
     function thamSo(thamSo1, thamSo2) {
-        thamSo1 = parseInt(prompt("nhâp số thứ 1"));
-        thamSo2 = parseInt(prompt("nhập số thứ 2"));
         if (thamSo1 > thamSo2) {
             alert("Số thứ nhất lớn hơn só thứ 2");
         } else if (thamSo1 <= thamSo2) {
