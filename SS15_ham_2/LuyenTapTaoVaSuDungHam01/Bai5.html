@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let mang2 = ["ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "leo"];
+
+    function timNgoiSao(tenNgoiSao) {
+        for (let i = 0; i < mang1.length; i++) {
+            if (tenNgoiSao == mang1[i]) {
+                return mang2[i];
+            }
+
+        }
+        return "khongtimthay";
+    }
+
+    let ngoiSao = prompt("nhap");
+    alert(timNgoiSao(ngoiSao));
+</script>
+
+</body>
+</html>

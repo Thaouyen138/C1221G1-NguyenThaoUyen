@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Viết hàm tính diện tích, hàm tính chu vi hình tròn
+    //Gọi hàm vừa xây dựng được
+    function dienTich(banKinh) {
+        banKinh = parseInt(prompt("nhap ban kinh"));
+        pi = parseInt(3, 14);
+        dienTichHinhTron = pi * banKinh * banKinh;
+        return dienTichHinhTron;
+    }
+
+    let dienTichHinhTron = dienTich();
+    alert("dien tich hinh tron=" + dienTich);
+
+    function chuVi(banKinh) {
+        banKinh = parseInt(prompt("nhap ban kinh"));
+        pi = parseInt(3, 14);
+        chuViHinhTron = 2 * pi * banKinh;
+        return chuViHinhTron;
+    }
+
+    let chuViHinhTron = chuVi();
+    alert("chu vi hinh tron =" + chuVi);
+</script>
+</body>
+</html>

@@ -8,9 +8,9 @@
 <h1>TEMPERATURE CONVERTER</h1>
 <p>Type a value in the fehrenheit field to convert the value to celcius</p>
 <label>Farenheit</label>
-<input  id="farenheit" type="number" value="number">
-oninput="temperatureConverter(this.value)">
-onchange="temperatureConverter(this.value)">
+<input id="farenheit" type="number" value="number"
+       oninput="temperatureConverter(this.value)"
+       onchange="temperatureConverter(this.value)">
 </p>
 <p>Celsius: <span id="outputCelsius"></span></p>
 </form>
@@ -19,7 +19,7 @@ onchange="temperatureConverter(this.value)">
 
     function temperatureConverter(valNum) {
         valNum = parseFloat(valNum);
-        document.getElementById("outputCelsius").innerHTML = (valNum-32) / 1.8;
+        document.getElementById("outputCelsius").innerText = (valNum - 32) / 1.8;
     }
 
 </script>

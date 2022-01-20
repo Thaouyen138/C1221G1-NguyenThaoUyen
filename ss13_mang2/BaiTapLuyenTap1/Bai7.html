@@ -8,9 +8,10 @@
 <script>
     let soNguyen = [1, 2, 3, 4, 5, 66, 77, 88, 99, 100];
     let nhapSo = parseInt(prompt("nhâp số"));
-    for (i = 0; i,soNguyen.length; i++) {
-        if (nhapSo = soNguyen[i]) {
-            soNguyen[i] = 0;
+    for (let i = 0; i < soNguyen.length; i++) {
+        if (nhapSo == soNguyen[i]) {
+            soNguyen.splice(i, 1);
+            soNguyen.push(0);
         }
     }
     alert("so nguyen =" + soNguyen);

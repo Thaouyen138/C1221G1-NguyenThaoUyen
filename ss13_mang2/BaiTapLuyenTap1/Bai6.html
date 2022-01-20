@@ -8,11 +8,11 @@
 <script>
     let soNguyen = [1, 2, 3, 4, 5, 66, 77, 88, 99, 100];
     let nhapSo = parseInt(prompt("nhap so"));
-    for (i = 0; i <= 10; i++) {
-        if (nhapSo = soNguyen[i]) {
-            soNguyen[i] = nhapSo;
+    for (let i = 0; i < soNguyen.length; i++) {
+        if (nhapSo == soNguyen[i]) {
             alert("v is in the array");
-        } else {
+            break;
+        } else if (i == soNguyen.length - 1) {
             alert("v is not in the array");
         }
     }
