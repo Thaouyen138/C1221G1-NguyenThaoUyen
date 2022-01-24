@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mangA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let max = [0];
+    let min = [0];
+    for (let i = 0; i < mangA.length; i++) {
+        if (mangA[i] > max) {
+            max = mangA[i];
+        } else if (mangA[i] < min) {
+            min = mangA[i];
+        }
+    }
+    alert("số lớn nhất là " + max);
+    alert("só nhỏ nhất là " + min);
+</script>
+</body>
+</html>
