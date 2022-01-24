@@ -6,17 +6,21 @@
 </head>
 <body>
 <script>
-    let tuSo=[1,2,3,4,5];
-    let mauSo=[tuSo.length];
-    let soChia= tuSo % mauSo
-    let max=0;
-    for (let i=0;i<tuSo.length;i++){
-        for (let j=0;j<mauSo.length;j++){
-        if ( soChia==0 & soChia >max){
-            alert("phân số lớn nhất")
+    let tuSo = [11, 2, 3, 4, 5,34,21];
+    let mauSo = [3, 4, 5, 6, 7,15,54];
+    let index = 0;
+    let max = tuSo[0] / mauSo[0];
+    for (let i = 0; i < tuSo.length; i++) {
+        let soChia = tuSo[i] / mauSo[i];
+        if (soChia > max) {
+            max = soChia;
+            index = i;
+
         }
-        }
+
     }
+    alert("phân số lớn nhất ở tại vị trí index=" + index);
+    alert("phân số lớn nhất là=" + tuSo[index] + "/" + mauSo[index]);
 </script>
 </body>
 </html>

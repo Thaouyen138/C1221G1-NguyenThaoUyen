@@ -6,18 +6,26 @@
 </head>
 <body>
 <script>
-    let mangA = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    let max = [0];
-    let min = [0];
+    //Viết hàm tìm giá trị lớn nhất, nhỏ nhất trong mảng 2 chiều
+    let mangA = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ];
+    let max = mangA[0][0];
+    let min = mangA[0][0];
     for (let i = 0; i < mangA.length; i++) {
-        if (mangA[i] > max) {
-            max = mangA[i];
-        } else if (mangA[i] < min) {
-            min = mangA[i];
+        for (let j = 0; j < mangA[i].length; j++) {
+            if (max < mangA[i][j]) {
+                max = mangA[i][j];
+
+            } else if (min > mangA[i][j]) {
+                min = mangA[i][j];
+            }
         }
     }
-    alert("số lớn nhất là " + max);
-    alert("só nhỏ nhất là " + min);
+    alert("giá trị lớn nhất là=" + max);
+    alert("giá trị nhỏ nhất là=" + min);
 </script>
 </body>
 </html>

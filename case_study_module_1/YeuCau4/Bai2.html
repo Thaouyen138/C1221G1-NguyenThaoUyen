@@ -5,6 +5,22 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    //Cho xâu kí tự. Hãy đếm số lượng kí tự khác nhau trong xâu đó
+    // Ví dụ: s = "cabca", thì kết quả differentSymbolsNaive(s) = 3.
+    //⇨	Có 3 kí tự khác nhau là a, b và c.
+
+    let s = "abccs";
+    let array = s.split("");
+    let ketQua = [array[0]];
+    for (let i = 1; i < array.length; i++) {
+
+        if (ketQua.indexOf(array[i]) == -1) {
+            ketQua.push(array[i]);
+        }
+    }
+    alert("ki tự khác nhau là=" + ketQua);
+</script>
 
 </body>
 </html>

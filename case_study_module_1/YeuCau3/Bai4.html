@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let so = prompt("nhập số:");
+    let mangSo = so.split("");
+    for (let i = 0; i < mangSo.length; i++) {
+        switch (mangSo[i]){
+            case "0":
+                mangSo[i]="không"
+                break;
+            case "1":
+            mangSo[i]="một"
+                break;
+            case "2":
+                mangSo[i]="hai"
+                break;
+            case "3":
+                mangSo[i]="ba"
+                break;
+            case "4":
+                mangSo[i]="bốn"
+                break;
+            case "5":
+                mangSo[i]="năm"
+                break;
+            case "6":
+                mangSo[i]="sáu"
+                break;
+            case "7":
+                mangSo[i]="bảy"
+                break;
+            case "8":
+                mangSo[i]="tám"
+                break;
+            case "9":
+                mangSo[i]="chín"
+                break;
+
+        }
+
+
+
+    }
+alert(mangSo.join(""))
+</script>
+
+</body>
+</html>
