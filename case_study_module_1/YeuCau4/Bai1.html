@@ -6,7 +6,43 @@
 </head>
 <body>
 <script>
-    let mangA=[nguyen, thaO,uYen];
+    let chuoi = 'tRuong  tAN   HAi lA hOC sINH gioi';
+
+    let array = chuoi.split(' ');
+
+    let chuoi2 = '';
+
+    for(let i = 0 ; i<array.length;i++){
+
+        if(array[i]===''){
+            array.splice(i,1);
+            i--;
+        }
+
+    }
+
+    for(let i = 0; i< array.length;i++){
+
+        chuoi2 += doiChuoi(array[i]) + ' ';
+
+    }
+
+
+    document.write(chuoi2);
+
+    function doiChuoi(text){
+
+        let splitArray = text.split('');
+
+        for(let i = 0;i<splitArray.length;i++){
+            if(i===0){
+                splitArray[i] = splitArray[i].toUpperCase();
+            }else{
+                splitArray[i] = splitArray[i].toLowerCase();
+            }
+        }
+        return splitArray.join('');
+    }
 
 </script>
 </body>
