@@ -13,16 +13,10 @@
         [7, 8, 9]
     ];
     let max = mangA[0][0];
-    let min = mangA[0][0];
+    let min = mangA[0][0]
+    let sum =0;
     for (let i = 0; i < mangA.length; i++) {
-        for (let j = 0; j < mangA[i].length; j++) {
-            if (max < mangA[i][j]) {
-                max = mangA[i][j];
-
-            } else if (min > mangA[i][j]) {
-                min = mangA[i][j];
-            }
-        }
+            sum+=mangA[i][i];
     }
     alert("giá trị lớn nhất là=" + max);
     alert("giá trị nhỏ nhất là=" + min);

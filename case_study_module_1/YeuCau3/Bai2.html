@@ -12,11 +12,11 @@
     for (let i = 0; i < mangA.length; i++) {
         for (let j = 0; j < mangB.length; i++) {
             if (mangB[i] = mangA[j]) {
-                mangB1 = (mangA+mangB)-(mangB[i])
-                alert("mangB=" + mangB);
+                mangB.splice(i, 1);
             }
         }
     }
+    console.log(mangB);
 </script>
 </body>
 </html>

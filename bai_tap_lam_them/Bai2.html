@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Bài 2: Viết chương trình nhập giá trị cho các phần tử
+    // của một mảng từ bàn phím (với n<10).
+    // Sau đó tính tổng các số lẻ có trong mảng.
+    let nhapSo = [1,2,3,4,5,11,12,13,14]
+    let count = 0;
+
+    function tinhTong(so) {
+        for (let i = 0; i < nhapSo.length; i++) {
+            if (i % 2 == 0) {
+                alert("là số chẳn");
+            } else {
+                alert("là số lẻ");
+                count++;
+            }
+        }
+
+    }
+
+    alert(count);
+</script>
+</body>
+</html>

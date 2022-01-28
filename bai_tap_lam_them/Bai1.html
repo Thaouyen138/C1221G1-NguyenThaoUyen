@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Viết 1 hàm có 1 tham số truyền vào là một chuỗi (countChar(string)).
+    // Hàm đếm số lượng các ký tự là nguyên âm có trong mảng?
+    //Ví dụ : countChar(“hello world”) => count =3;
+    let chuCai = prompt("nhập chữ cái");
+    let nguyenAm = ["a", "u", "e", "o", "i"];
+    let count = 0;
+
+    function bangChuCai(chu) {
+        for (let i = 0; i < nguyenAm.length; i++) {
+            if (chuCai[i] == nguyenAm) {
+                nguyenAm=chuCai[i]
+                count++;
+                break;
+            }
+        }
+
+    }
+
+    alert(count);
+</script>
+</body>
+</html>
