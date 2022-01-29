@@ -9,22 +9,24 @@
     //Viết 1 hàm có 1 tham số truyền vào là một chuỗi (countChar(string)).
     // Hàm đếm số lượng các ký tự là nguyên âm có trong mảng?
     //Ví dụ : countChar(“hello world”) => count =3;
-    let chuCai = prompt("nhập chữ cái");
+    let chuCai = " hello my friend";
+    let mang1 = chuCai.split("");
     let nguyenAm = ["a", "u", "e", "o", "i"];
     let count = 0;
 
-    function bangChuCai(chu) {
-        for (let i = 0; i < nguyenAm.length; i++) {
-            if (chuCai[i] == nguyenAm) {
-                nguyenAm=chuCai[i]
-                count++;
-                break;
+    function bangChuCai() {
+        for (let i = 0; i < mang1.length; i++) {
+            for (let j = 0; j < nguyenAm.length; j++) {
+                if (mang1[i] == nguyenAm[j]) {
+                    count++;
+                }
             }
         }
+      return count;
 
     }
 
-    alert(count);
+    alert(bangChuCai());
 </script>
 </body>
 </html>
