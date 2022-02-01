@@ -12,7 +12,11 @@
     // Ví dụ: sum ([5,6,4,8,24,11,12])=>
     // 6 và 8 là  số chắn ở vị trí lần lượt là 1 và 3
     // (index =1 và 3 là lẻ) => 6+8 =14
-    let mangSo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let mangSo = [];
+    let n=parseInt(prompt("nhap do dai:"));
+    for (let i=0;i<n;i++){
+        mangSo[i]=parseInt(prompt("nhap phan tu:"))
+    }
     function tinhTong(so) {
         let ketQua = 0;
         for (let i = 1; i < so.length; i = i + 2) {

@@ -10,7 +10,11 @@
 // Hàm trả về một mảng con với các phần tử
 // có trong mảng arr và các phần tử này chia hết cho 3
 // nhưng không chia hết cho 5
-let mangSo = [12, 10, 33, 7, 15, 18, 5, 21];
+let mangSo = [];
+let n = parseInt(prompt("nhap do dai:"));
+for (let i = 0; i < n; i++) {
+    mangSo[i] = parseInt(prompt("nhap phan tu:"));
+}
 
 function timSo(so) {
     let mang = [];
