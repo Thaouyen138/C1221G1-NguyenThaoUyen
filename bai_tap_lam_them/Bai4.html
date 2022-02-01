@@ -9,21 +9,20 @@
     //: Viết hàm có 1 tham số truyền vào : sum(arr) .
     // Với tham số arr là một mảng 1 chiều.
     // Hàm trả về Tổng các số chẵn ở vị trí lẻ (có chỉ số là lẻ)
-   // Ví dụ: sum ([5,6,4,8,24,11,12])=>
+    // Ví dụ: sum ([5,6,4,8,24,11,12])=>
     // 6 và 8 là  số chắn ở vị trí lần lượt là 1 và 3
     // (index =1 và 3 là lẻ) => 6+8 =14
-    let mangSo=[1,2,3,4,5,6,7,8,9,10;
-    function soChan(so) {
-        for (let i=0;i<mangSo.length;i++){
-            for (let j=0;j<mangSo[i];j++){
-                if (mangSo[i]%2==0){
-                    mangSo.indexOf(i);
-                    s
-                }
+    let mangSo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    function tinhTong(so) {
+        let ketQua = 0;
+        for (let i = 1; i < so.length; i = i + 2) {
+            if (so[i] % 2 == 0) {
+                ketQua += so[i];
             }
         }
-
+       return ketQua;
     }
+    alert(tinhTong(mangSo));
 </script>
 
 </body>

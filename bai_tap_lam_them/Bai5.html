@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>//Viết hàm có 1 tham số truyền vào : find(arr) .
+// Với tham số arr là một mảng 1 chiều.
+// Hàm trả về một mảng con với các phần tử
+// có trong mảng arr và các phần tử này chia hết cho 3
+// nhưng không chia hết cho 5
+let mangSo = [12, 10, 33, 7, 15, 18, 5, 21];
+
+function timSo(so) {
+    let mang = [];
+    for (let i = 0; i < so.length; i++) {
+        if (so[i] % 3 == 0 && so[i] % 5 != 0) {
+            mang.push(so[i]);
+
+        }
+    }
+    return mang;
+
+
+}
+
+alert(timSo(mangSo));
+</script>
+
+</body>
+</html>
