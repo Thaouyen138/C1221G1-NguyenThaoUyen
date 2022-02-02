@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Nhập từ bàn phím mảng số nguyên gồm n phần tử (n<=50).
+    // Hiển thị ra màn hình danh sách các phần tử của mảng,
+    // hiện thị giá trị trung bình của các phần tử chia hết cho 5 ở vị trí chia hết cho 3
+    // ( phần tử có index chia hết cho 3)
+
+    let mangSoNguyen = [];
+    let doDaiMang = parseInt(prompt("nhập độ dài mảng:"));
+    for (let i = 0; i < doDaiMang; i++) {
+        mangSoNguyen[i] = parseInt(prompt("nhập phần tử:"));
+    }
+    console.log(mangSoNguyen)
+    function tinhTrungBinh(so) {
+        let sum = 0;
+        let count = 0;
+        let trungBinh = 0;
+        for (let i = 0; i < so.length; i += 3) {
+            if (so[i] % 5 == 0) {
+                count++;
+                sum += so[i];
+
+            }
+        }
+        trungBinh = sum / count;
+        return trungBinh;
+
+    }
+
+    console.log(tinhTrungBinh(mangSoNguyen));
+</script>
+</body>
+</html>
